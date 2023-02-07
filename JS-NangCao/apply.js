@@ -1,6 +1,14 @@
   //apply()
-   
   
+  const peo ={
+    nameP :"K"
+  }
+get = (p,action) => {
+  return `${p} ${this.nameP}.${action}`
+} 
+ let result = get.apply( peo, ['chao',' ngoi'])
+console.log(result);
+  //
   const cat ={ 
     nameCat: " K",
     age: 3,
@@ -38,9 +46,4 @@
    } 
    console.log(greet.apply(dog, ['dang di','vui vẻ']));
    
-   /// to string
-   console.log("`````````````````");
-   let num = 7;
-   console.log(typeof num);
-   let result = num.toString();
-   console.log(typeof result);
+ 
