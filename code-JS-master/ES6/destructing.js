@@ -6,11 +6,11 @@ const person = {
     gender: 'female'    
 }
 // thông thường
-// let name = person.name;
-// let age = person.age;
-// let gender = person.gender;
+let nameF = person.name;
+let age = person.age;
+let gender = person.gender;
 // es6
-let { name, age, gender } = person;
+let { nameF, age, gender } = person;
 console.log(nameF);
 console.log(age); 
 console.log(gender); 
